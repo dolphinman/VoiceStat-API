@@ -16,21 +16,18 @@ Has several functions such as:
 
 
 **/etc/sudoers**
-
 ```
 Defaults:asterisk !requireTTY
 asterisk ALL=NOPASSWD:/sbin/service
 ```
 
 **/etc/httpd/conf/httpd.conf**
-
 ```
 User asterisk
 Group asterisk
 ```
 
 **The machine itself**
-
 ```
 setenforce 1
 service httpd restart
