@@ -20,7 +20,6 @@ Has several functions such as:
 ```
 Defaults:asterisk !requireTTY
 ```
-
 ```
 asterisk ALL=NOPASSWD:/sbin/service
 ```
@@ -30,7 +29,6 @@ asterisk ALL=NOPASSWD:/sbin/service
 ```
 User asterisk
 ```
-
 ```
 Group asterisk
 ```
@@ -40,7 +38,6 @@ Group asterisk
 ```
 setenforce 1
 ```
-
 ```
 service httpd restart
 ```
